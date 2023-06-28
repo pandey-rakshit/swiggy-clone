@@ -1,0 +1,28 @@
+{
+  "name": "swiggy-clone",
+  "version": "1.0.0",
+  "description": "Clone of Swiggy (food ordering app) using React",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel public/index.html",
+    "build": "npx parcel build public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pandey-rakshit/swiggy-clone.git"
+  },
+  "author": "pandey-rakshit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandey-rakshit/swiggy-clone/issues"
+  },
+  "homepage": "https://github.com/pandey-rakshit/swiggy-clone#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}
