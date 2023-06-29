@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 2%;
+}
+
+.navbar .nav-left {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-left .image-container {
+  display: flex;
+  width: 100px;
+}
+
+.nav-left .image-container img {
+  width: 70%;
+  cursor: pointer;
+  transition: width 0.3s ease-in;
+  -webkit-transition: width 0.3s ease-in;
+  -moz-transition: width 0.3s ease-in;
+  -ms-transition: width 0.3s ease-in;
+  -o-transition: width 0.3s ease-in;
+}
+.nav-left .image-container img:hover {
+  width: 80%;
+}
+
+.nav-left .location-container {
+  margin: 15px;
+  padding: 5px;
+}
+
+.navbar .nav-right .nav-item {
+  margin-right: 2rem;
+  display: inline-block;
+  list-style-type: none;
+  padding: 3px;
+}
+
+.navbar .nav-right .nav-item .nav-links .fa-solid {
+  margin-right: 0.5rem;
+}
+
+.navbar .nav-right .nav-item .nav-links {
+  display: inline-block;
+  padding: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-right .nav-item .nav-links .offer {
+  color: #f1ac2b;
+  text-transform: uppercase;
+}
+
+.navbar .nav-right .nav-item .nav-links:hover {
+  color: #f1ac2b;
+}

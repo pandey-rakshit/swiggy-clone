@@ -1,15 +1,23 @@
 import Ratings from "./Ratings";
+import Promoted from "./Promoted";
 
 const Cards = (props) => {
   return (
     <div className="card">
       <div className="card-container">
         <div className="img-container">
+          {props.isPromoted ? (
+            <>
+              <div className="promotion-container">
+                <Promoted />
+              </div>
+            </>
+          ) : null}
           <img
             src={
               props.image
                 ? props.image
-                : "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=300&h=750&dpr=1"
+                : "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=1"
             }
           />
         </div>
@@ -25,18 +33,14 @@ const Cards = (props) => {
           <span>{props.price ? props.price : "₹250 FOR TWO"}</span>
         </div>
         <div className="card-footer">
-          <div className="divider"></div>
-          {props.isOffer
-            ? () => {
-                return (
-                  <>
-                    <p>{props.isOffer}</p>
-                    <div className="divider"></div>
-                  </>
-                );
-              }
-            : null}
+          {props.isOffer ? (
+            <>
+              <div className="divider"></div>
+              <p>{props.isOffer}</p>
+            </>
+          ) : null}
           <div className="card-link-item">
+            <div className="divider"></div>
             <a href="#" className="card-link">
               QUICK VIEW
             </a>

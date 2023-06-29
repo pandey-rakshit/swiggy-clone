@@ -1,11 +1,3 @@
-import Cards from "./Components/Cards/Cards";
-
-const style = {
-  display: "flex",
-  flexWrap: "wrap",
-  justifyContent: "center",
-};
-
 const App = () => {
   return (
     <div>
