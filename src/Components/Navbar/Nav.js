@@ -9,7 +9,11 @@ const Navbar = () => {
           <img src={logo} />
         </div>
         <div className="location-container">
-          <p>location</p>
+          <a>
+            <span className="highlight">other</span>
+            <span>Rudrapur, Uttarakhand, India</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
         </div>
       </div>
       <div className="nav-right">

@@ -1,18 +1,22 @@
 .navbar {
+  width: 100%;
+  padding: 30px 30px 30px 200px;
   display: flex;
   justify-content: space-around;
-  margin: auto 2%;
+  position: fixed;
+  background-color: #ffffff;
 }
 
 .navbar .nav-left {
-  width: 200px;
+  width: 400px;
   display: flex;
   justify-content: center;
 }
 
 .nav-left .image-container {
   display: flex;
-  width: 100px;
+  width: 80px;
+  height: 60px;
 }
 
 .nav-left .image-container img {
@@ -29,19 +33,39 @@
 }
 
 .nav-left .location-container {
-  margin: 15px;
-  padding: 5px;
+  padding: 15px 0;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.nav-left .location-container a span {
+  font-size: 12px;
+  color: #9e9ea1;
+}
+
+.nav-left .location-container a .highlight {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0 5px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #000000;
+  font-weight: 700;
+}
+
+.navbar .nav-right {
+  margin: auto;
 }
 
 .navbar .nav-right .nav-item {
-  margin-right: 2rem;
+  margin-right: 0.4rem;
   display: inline-block;
   list-style-type: none;
   padding: 3px;
 }
 
-.navbar .nav-right .nav-item .nav-links .fa-solid {
-  margin-right: 0.5rem;
+.navbar .fa-solid {
+  margin: 0 0.5rem;
 }
 
 .navbar .nav-right .nav-item .nav-links {
@@ -58,6 +82,9 @@
   text-transform: uppercase;
 }
 
+.navbar .nav-left .location-container:hover a .highlight,
+.navbar .nav-left .location-container:hover a .fa-solid,
 .navbar .nav-right .nav-item .nav-links:hover {
   color: #f1ac2b;
+  border-color: #f1ac2b;
 }

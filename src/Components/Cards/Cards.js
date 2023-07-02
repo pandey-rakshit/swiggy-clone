@@ -28,9 +28,9 @@ const Cards = (props) => {
         <div className="tag-container">
           <Ratings text={props.ratings ? props.ratings : null} />{" "}
           <span>&#x2022;</span>
-          <span>{props.delay ? props.delay : "40 MINS"}</span>
+          <span>{props.delay ? props.delay + "MINS" : "40 MINS"}</span>
           <span>&#x2022;</span>
-          <span>{props.price ? props.price : "₹250 FOR TWO"}</span>
+          <span>{props.price ? "₹" + props.price : "₹250 FOR TWO"}</span>
         </div>
         <div className="card-footer">
           {props.isOffer ? (
