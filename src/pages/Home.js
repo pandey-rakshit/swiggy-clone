@@ -2174,7 +2174,7 @@ const restaurantsCards = [
 const cardStyle = {
   display: "flex",
   flexWrap: "wrap",
-  margin: "4%",
+  margin: "0 4%",
   paddingTop: "150px",
   justifyContent: "center",
 };
