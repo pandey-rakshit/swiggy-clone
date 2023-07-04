@@ -12,7 +12,7 @@ const Navbar = () => {
           <a>
             <span className="highlight">other</span>
             <span>Rudrapur, Uttarakhand, India</span>
-            <i class="fa-solid fa-angle-down"></i>
+            <i className="fa-solid fa-angle-down"></i>
           </a>
         </div>
       </div>
@@ -26,25 +26,25 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a className="nav-links">
-              <i class="fa-solid fa-cookie"></i>
+              <i className="fa-solid fa-cookie"></i>
               Offers<sup className="offer">New</sup>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-links">
-              <i class="fa-solid fa-life-ring"></i>
+              <i className="fa-solid fa-life-ring"></i>
               Help
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-links">
-              <i class="fa-solid fa-user"></i>
+              <i className="fa-solid fa-user"></i>
               Sign In
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-links">
-              <i class="fa-solid fa-cart-shopping fa-flip-horizontal"></i>
+              <i className="fa-solid fa-cart-shopping fa-flip-horizontal"></i>
               Cart
             </a>
           </li>

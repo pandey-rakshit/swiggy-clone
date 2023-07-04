@@ -1,13 +1,12 @@
 import "./Cards.css";
 
-const Ratings = (props) => {
-  const { text } = props;
+const Ratings = ({ avgRating }) => {
   let className = "";
-  if (!text) {
+  if (!avgRating) {
     className = "default";
-  } else if (text > 3.8) {
+  } else if (avgRating > 3.8) {
     className = "success";
-  } else if (text > 2.9) {
+  } else if (avgRating > 2.9) {
     className = "secondary";
   } else {
     className = "ternary";
@@ -17,7 +16,7 @@ const Ratings = (props) => {
     <div className="container small">
       <p className={className}>
         <i className="fa-solid fa-star fa-small"></i>
-        <span>{props.text ? props.text : "--"}</span>
+        <span>{avgRating}</span>
       </p>
     </div>
   );
