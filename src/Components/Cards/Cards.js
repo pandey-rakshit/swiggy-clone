@@ -51,7 +51,7 @@ const Cards = ({ data }) => {
           {offerString ? (
             <>
               <div className="divider"></div>
-              <p>
+              <p className="offerString">
                 <i className="fa-solid fa-cookie"></i>
                 {offerString}
               </p>

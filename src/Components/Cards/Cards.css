@@ -50,13 +50,13 @@
 .card {
   padding: 10px;
   margin: 5px;
-  border: 1px solid #ffffff;
   position: relative;
 }
 
 .card .card-container {
+  border: 1px solid #ffffff;
   margin: 5px;
-  padding: 2px;
+  padding: 15px;
 }
 
 .card .text-container {
@@ -104,9 +104,9 @@
   justify-content: center;
 }
 
-.card:hover {
+.card:hover .card-container {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
-  border: 1px solid black;
+  border: 1px solid #000000;
 }
 
 .card:hover .card-footer .card-link-item {
@@ -150,4 +150,8 @@
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.card .card-footer .offerString {
+  color: #db7c38;
 }
