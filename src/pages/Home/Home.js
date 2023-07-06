@@ -1,12 +1,13 @@
+import "./home.css";
 import Cards from "../../Components/Cards/Cards";
 import data from "./data.json";
 
 const Home = () => {
   return (
     <>
-      <div className="card-container">
+      <div className="section-container">
         {data.map((restaurants) => {
-          return <Cards key={restaurants.data.id} data={restaurants} />;
+          return <Cards key={restaurants?.data?.id} data={restaurants} />;
         })}
       </div>
     </>
