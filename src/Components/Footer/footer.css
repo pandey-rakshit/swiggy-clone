@@ -44,6 +44,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 20px;
 }
 
 .footer-section .footer-container .footer-copyright .image-container img {
