@@ -1,5 +1,6 @@
 import "./footer.css";
-import logo from "../../../public/images/swiggy.svg";
+import appstorelogo from "../../../public/images/appstore.webp";
+import playstorelogo from "../../../public/images/playstore.webp";
 
 const Footer = () => {
   return (
@@ -83,8 +84,12 @@ const Footer = () => {
           </div>
           <div className="store-container">
             <div className="image-container">
-              <div className="app-store"></div>
-              <div className="play-store"></div>
+              <div className="app-store">
+                <img src={appstorelogo} />
+              </div>
+              <div className="play-store">
+                <img src={playstorelogo} />
+              </div>
             </div>
           </div>
         </div>

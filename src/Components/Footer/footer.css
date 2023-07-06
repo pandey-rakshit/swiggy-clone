@@ -40,6 +40,15 @@
   text-transform: capitalize;
 }
 
+.footer-container .store-container {
+  width: 200px;
+}
+
+.footer-container .store-container .play-store,
+.footer-container .store-container .app-store {
+  margin: 30px 0;
+}
+
 .footer-container .footer-copyright {
   display: flex;
   justify-content: space-between;
