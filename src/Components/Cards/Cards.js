@@ -1,5 +1,6 @@
 import Ratings from "./Ratings";
 import Promoted from "./Promoted";
+import { CLOUDINARY_CDN } from "../../utils/constants";
 
 const Cards = ({ data }) => {
   const {
@@ -28,7 +29,7 @@ const Cards = ({ data }) => {
             </>
           ) : null}
           <img
-            src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/${cloudinaryImageId}`}
+            src={`${CLOUDINARY_CDN}/${cloudinaryImageId}`}
             width={254}
             height={160}
           />

@@ -1,6 +1,7 @@
 import "./footer.css";
 import appstorelogo from "../../../public/images/appstore.webp";
 import playstorelogo from "../../../public/images/playstore.webp";
+import { SWIGGY_FOOTER_LOGO } from "../../utils/constants";
 
 const Footer = () => {
   return (
@@ -1919,9 +1920,7 @@ const Footer = () => {
         <div className="divider"></div>
         <div className="footer-copyright">
           <div className="image-container">
-            <img
-              src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_284/Logo_f5xzza`}
-            />
+            <img src={SWIGGY_FOOTER_LOGO} />
           </div>
           <div className="copy">&copy; {new Date().getFullYear()} Swiggy</div>
           <div className="social-container">
