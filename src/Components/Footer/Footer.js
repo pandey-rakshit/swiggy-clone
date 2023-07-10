@@ -1,4 +1,3 @@
-import "./footer.css";
 import appstorelogo from "../../../public/images/appstore.webp";
 import playstorelogo from "../../../public/images/playstore.webp";
 import { SWIGGY_FOOTER_LOGO } from "../../utils/constants";

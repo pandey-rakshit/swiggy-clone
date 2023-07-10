@@ -1,4 +1,3 @@
-import "./home.css";
 import Cards from "../../Components/Cards/Cards";
 import data from "../../utils/data.json";
 

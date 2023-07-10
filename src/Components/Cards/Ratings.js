@@ -1,5 +1,3 @@
-import "./Cards.css";
-
 const Ratings = ({ avgRating }) => {
   let className = "";
   if (!avgRating) {

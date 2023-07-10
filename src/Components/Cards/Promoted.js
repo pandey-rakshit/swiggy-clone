@@ -1,5 +1,3 @@
-import "./Cards.css";
-
 const Promoted = () => {
   return (
     <div className="promotion">

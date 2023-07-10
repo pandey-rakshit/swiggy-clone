@@ -1,5 +1,4 @@
 import logo from "../../../public/images/swiggy.svg";
-import "./Nav.css";
 
 const Navbar = () => {
   return (

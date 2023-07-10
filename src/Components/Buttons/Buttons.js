@@ -1,5 +1,3 @@
-import "./Buttons.css";
-
 const Buttons = (props) => {
   return (
     <div className="buttons">
