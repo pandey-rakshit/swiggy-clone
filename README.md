@@ -1,6 +1,6 @@
 # Swiggy-Clone
 
-A Swiggy (clone) website built using ReactJS would have similar features and functionality as the original [`Swiggy`]('https://wwww.swiggy.com') platform. It would allow users to browse and search for their favorite restaurant, food items.
+A Swiggy (clone) website built using ReactJS would have similar features and functionality as the original [`Swiggy`]('https://www.swiggy.com') platform. It would allow users to browse and search for their favorite restaurant, food items.
 
 Overall, using ReactJS would allow for a smooth and dynamic user experience on the Swiggy clone website.
 
